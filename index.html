@@ -19,6 +19,18 @@
     gtag('js', new Date());
     gtag('config', 'G-Q0957FMC5W');
   </script>
+  <style>
+    /* News, Publications 양쪽 모두에 적용될 불릿 “딱 붙는” 스타일 */
+    ul.flat-list {
+      margin: 0;           /* ul 위아래 기본 마진 제거 */
+      padding: 0;          /* ul 좌우 패딩 제거 */
+      list-style-position: inside;  /* 불릿을 텍스트 라인 안쪽에 붙이기 */
+    }
+    ul.flat-list li {
+      margin: 0;           /* li 기본 마진 제거 */
+      padding: 0;          /* li 기본 패딩 제거 */
+    }
+  </style>
 </head>
 
 <body>
@@ -96,7 +108,7 @@
           </table>
 
 
-          <!-- <table
+          <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
@@ -170,7 +182,7 @@
 
               </body>
             </tbody>
-          </table> -->
+          </table>
 
 
               <table
@@ -205,9 +217,11 @@
                       <a href="https://sites.google.com/view/dongkyu-cho/home">Dong Kyu Cho</a>,
                       <strong>Inwoo Hwang</strong><sup>&dagger;</sup>,
                       <a href="https://www.sanghacklee.me">Sanghack Lee</a><sup>&dagger;</sup>
-                      <li> <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition
-                          (<strong>CVPR</strong>)</em>,
-                        2025 </li>
+                      <ul class="flat-list">
+                        <li> <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition
+                            (<strong>CVPR</strong>)</em>,
+                          2025 </li>
+                      </ul>
                       <p>
                         <a href="https://iwhwang.github.io">[PDF]</a>
                       </p>
